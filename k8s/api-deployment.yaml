@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: <dockerhub_username>/coordinates_api:v1
+        image: yehudagav/coordinates_api:v1
         ports:
         - containerPort: 8000
         env:
