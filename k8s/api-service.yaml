@@ -10,5 +10,3 @@ spec:
   - port: 8000
     targetPort: 8000
     nodePort: 30080
-    docker build -t yehudagav/coordinates_api:v1 .
-docker push yehudagav/coordinates_api:v1
